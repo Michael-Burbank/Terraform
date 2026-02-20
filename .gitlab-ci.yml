@@ -14,9 +14,9 @@ variables:
   GIT_DEPTH: 0
 
 stages:
+  - test
   - secret-detection
   - ci
-  - test
 
 github:
   stage: ci
